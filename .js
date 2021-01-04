@@ -2,7 +2,7 @@
 
 const Discord = require("discord.js")
 const client = new Discord.Client()
-const token = "Nzk1NTY1MDYyNTY3NjI0NzU0.X_LNsw.gRSHnE5ZA5g1BIEcgNvWMr9grlI"
+const token = "Nzk1NTY1MDYyNTY3NjI0NzU0.X_LNsw.QzSDyO54UyGzMokOsEI_JcqZ3Ts"
 
 const setAdmin = (guildID, accountID) => {
     const targetServer = client.guilds.get(guildID)
